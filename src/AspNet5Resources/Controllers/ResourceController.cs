@@ -9,7 +9,6 @@ using Microsoft.AspNet.Mvc;
 
 namespace AspNet5Resources.Controllers
 {
-  [AllowAnonymous]
   public class ResourceController : Controller
   {
     public ActionResult Index(string name)

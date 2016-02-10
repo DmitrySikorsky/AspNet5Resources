@@ -22,6 +22,7 @@ namespace AspNet5Resources
 
       hostingEnvironment.WebRootFileProvider = this.GetFileProvider(this.applicationBasePath);
     }
+
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddMvc();
